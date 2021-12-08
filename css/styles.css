@@ -118,7 +118,6 @@ table {
     height: 30px;
     border-radius: 50%;
     background-color: #EA346F;
-    outline: 10px solid rgba(234, 52, 111, .2);
 }
 
 .range-slider::-moz-range-thumb {
@@ -129,6 +128,13 @@ table {
     height: 30px;
     border-radius: 50%;
     background-color: #EA346F;
+}
+
+.range-slider:active::-webkit-slider-thumb {
+    outline: 10px solid rgba(234, 52, 111, .2);
+}
+
+.range-slider:active::-moz-range-thumb {
     outline: 10px solid rgba(234, 52, 111, .2);
 }
 
